@@ -8,7 +8,7 @@ import { Subject, Observable } from 'rxjs';
 export class PostService {
   getPost:Subject<any>
 
-   socket = io('http://localhost:5000');
+   socket = io('https://lit-castle-40763.herokuapp.com');
 
 addPost(data){
   this.socket.emit('input',data)
