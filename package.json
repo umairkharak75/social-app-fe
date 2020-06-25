@@ -1,7 +1,6 @@
 {
   "name": "social-fk",
   "version": "0.0.0",
-
   "scripts": {
     "heroku-postbuild": "ng build --prod",
     "ng": "ng",
@@ -10,14 +9,11 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
-    
   },
   "engines": {
     "node": "12.8.0",
     "npm": "6.14.4"
   },
-
-
   "private": true,
   "dependencies": {
     "express": "^4.17.1",
@@ -39,7 +35,6 @@
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2",
     "typescript": "~3.8.3"
-
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.9",
