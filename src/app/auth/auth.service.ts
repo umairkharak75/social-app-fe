@@ -8,11 +8,11 @@ export class AuthService {
 
   constructor(public http:HttpClient) { }
   createUser(userData){
-   return this.http.post('http://localhost:5000/api/users',userData)
+   return this.http.post('https://lit-castle-40763.herokuapp.com/api/users',userData)
   }
 
   login(data){
-    return this.http.post('http://localhost:5000/api/auth',data)
+    return this.http.post('https://lit-castle-40763.herokuapp.com/api/auth',data)
 
   }
 }
